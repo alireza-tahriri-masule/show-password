@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Show Password",
+    "version": "1.0",
+    "description": "A browser extension that reveals password inputs when the cursor hovers over fields with the `password` type",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+      }
+    ]
+  }  
