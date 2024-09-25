@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ShowPassword",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A browser extension that reveals password inputs when the cursor hovers over fields with the `password` type",
   "permissions": ["activeTab", "storage"],
   "icons": {
@@ -18,12 +18,5 @@
       "matches": ["<all_urls>"],
       "js": ["main.js"]
     }
-  ],
-  "browser_action": {
-    "browser_style": true,
-    "default_icon": {
-      "512": "icons/icon-512.png"
-    },
-    "default_title": "ShowPassword"
-  }
+  ]
 }
