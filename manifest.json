@@ -3,11 +3,6 @@
   "name": "ShowPassword",
   "version": "1.0.1",
   "description": "A browser extension that shows hidden passwords when hovering over password fields, making it easy for users to verify their input.",
-  "permissions": ["activeTab"],
-  "host_permissions": [
-    "https://*/*",
-    "http://*/*"
-  ],
   "icons": {
     "48": "icons/icon-48.png",
     "72": "icons/icon-72.png",
